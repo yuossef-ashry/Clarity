@@ -1,0 +1,2157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- ═══════════════════════════════════════════════════════════════════════════════════════ -->
+    <!-- ═══════════════════════════════ START HEAD SECTION ═══════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════════════════════════════════════════════════════ -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clarity - Digital Solutions Platform</title>
+        <!-- ═══════════════════════ Favicon ═══════════════════════ -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <!-- ═══════════════════════ Google Fonts (Inter) ═══════════════════════ -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <!-- ═══════════════════════ Font Awesome Icons ═══════════════════════ -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <!-- ═══════════════════════ Bootstrap 5.3.8 CSS ═══════════════════════ -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        >
+        <!-- ═══════════════════════ Custom Stylesheet ═══════════════════════ -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ START NAVIGATION / HEADER ══════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <header class="bg-light position-fixed top-0 z-3 w-100">
+    <nav class="navbar py-3 navbar-expand-xl my-container-navbar">
+        <div class="container-fluid d-flex justify-content-between">
+
+            <!-- Logo -->
+            <div class="d-flex align-items-center">
+                <div class="bg-two-colors p-2 me-3 rounded-3">
+                    <i class="fa-solid fa-cube fs-5 text-white"></i>
+                </div>
+                <span class="text-two-colors fw-bold fs-4">Clarity</span>
+            </div>
+
+            <!-- Mobile Button -->
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Links -->
+                <ul class="navbar-nav fw-bold mt-2 me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item ms-4 me-3">
+                        <a class="nav-link active" href="#Home">Home</a>
+                    </li>
+
+                    <!-- Mega Dropdown -->
+                    <li class="nav-item dropdown me-3 position-static">
+
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Services
+                        </a>
+
+                        <div class="dropdown-menu border-0 shadow-lg p-4 mt-3">
+
+                            <div class="row">
+
+                                <!-- Development -->
+                                <div class="col-lg-4">
+
+                                    <h5 class="fw-bold mb-4">Development</h5>
+
+                                    <a href="#" class="dropdown-item py-3 rounded-3">
+                                        <div class="d-flex gap-3">
+                                            <i class="fa-solid fa-code fs-5 text-warning"></i>
+
+                                            <div>
+                                                <h6 class="mb-1">Web Development</h6>
+                                                <small>Custom web applications & websites</small>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#" class="dropdown-item py-3 rounded-3">
+                                        <div class="d-flex gap-3">
+                                            <i class="fa-solid fa-mobile-screen-button fs-5 text-warning"></i>
+
+                                            <div>
+                                                <h6 class="mb-1">Mobile Apps</h6>
+                                                <small>iOS & Android native apps</small>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#" class="dropdown-item py-3 rounded-3">
+                                        <div class="d-flex gap-3">
+                                            <i class="fa-solid fa-palette fs-5 text-warning"></i>
+
+                                            <div>
+                                                <h6 class="mb-1">UI / UX Design</h6>
+                                                <small>User-centered design solutions</small>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                </div>
+
+                                <!-- AI -->
+                                <div class="col-lg-4">
+
+                                    <h5 class="fw-bold mb-4">
+                                        Infrastructure & AI
+                                    </h5>
+
+                                    <a href="#" class="dropdown-item py-3 rounded-3">
+                                        <div class="d-flex gap-3">
+                                            <i class="fa-solid fa-cloud fs-5 text-warning"></i>
+
+                                            <div>
+                                                <h6 class="mb-1">Cloud Solutions</h6>
+                                                <small>Scalable cloud infrastructure</small>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#" class="dropdown-item py-3 rounded-3">
+                                        <div class="d-flex gap-3">
+                                            <i class="fa-solid fa-brain fs-5 text-warning"></i>
+
+                                            <div>
+                                                <h6 class="mb-1">AI & Machine Learning</h6>
+                                                <small>Intelligent automation solutions</small>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#" class="dropdown-item py-3 rounded-3">
+                                        <div class="d-flex gap-3">
+                                            <i class="fa-solid fa-database fs-5 text-warning"></i>
+
+                                            <div>
+                                                <h6 class="mb-1">Data Solutions</h6>
+                                                <small>Database & analytics platforms</small>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                </div>
+
+                                <!-- Marketing -->
+                                <div class="col-lg-4">
+
+                                    <h5 class="fw-bold mb-4">Marketing</h5>
+
+                                    <a href="#" class="dropdown-item py-3 rounded-3">
+                                        <div class="d-flex gap-3">
+                                            <i class="fa-solid fa-chart-line fs-5 text-warning"></i>
+
+                                            <div>
+                                                <h6 class="mb-1">Digital Marketing</h6>
+                                                <small>SEO, SEM & Social Media</small>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#" class="dropdown-item py-3 rounded-3">
+                                        <div class="d-flex gap-3">
+                                            <i class="fa-solid fa-bullhorn fs-5 text-warning"></i>
+
+                                            <div>
+                                                <h6 class="mb-1">Content Strategy</h6>
+                                                <small>Engaging content creation</small>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <div class="border rounded-4 p-4 text-center mt-3">
+
+                                        <h6 class="fw-bold">
+                                            Need help choosing?
+                                        </h6>
+
+                                        <p class="small text-muted">
+                                            Talk to our experts to find the perfect solution for your business.
+                                        </p>
+
+                                        <a href="#Contact" class="text-decoration-none fw-bold">
+                                            Contact us
+                                            <i class="fa-solid fa-arrow-right ms-1"></i>
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#Technology">Technology</a>
+                    </li>
+
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#Testimonials">Testimonials</a>
+                    </li>
+
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#FAQ">FAQ</a>
+                    </li>
+
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+
+                </ul>
+
+                <!-- Buttons -->
+                <div class="d-flex">
+
+                    <button type="button" class="btn2-nav fw-bold me-4 nav-link">
+                        Sign In
+                    </button>
+
+                    <button type="button" class="my-btn fw-bold rounded-pill ms-4">
+                        Get Started
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+</header>
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ END NAVIGATION / HEADER ══════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ START HERO SECTION (#Home) ═══════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <div id="Home" class="">
+            <div class="my-container ">
+                <div class="row">
+                    <div class="   col-sm-12 col-lg-7 ">
+                        <div>
+                            <div class="d-flex  bg-Peach-Fuzz w-fit-content mt-3 py-2 px-3   rounded-5">
+                                <i class="fa-solid fa-rocket" style="color: #ea580c;"></i>
+                                <p class="mb-0 p-home-hed ms-2">Transforming Digital Experiences</p>
+                            </div>
+                            <h1 class="text-two-colors  fs-h1 my-3 ">
+                                <span class="d-block">Digital Solutions</span>
+                                <span class="d-block">That Drive</span>
+                                <span class="d-block">Growth</span>
+                            </h1>
+                            <p class="p-home ">
+                                We craft innovative digital experiences that transform businesses
+                            and
+                            accelerate growth. From cutting-edge web applications to mobile
+                            solutions, we deliver technology that makes a difference.
+                            </p>
+                            <div class="">
+                                <button class="my-btn rounded-pill fs-6 my-3 translate btn-responsive">
+                                    Start Your Project
+                                    <i class="fa-solid fa-arrow-right-long ms-2  " style="color: #ffffff;"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary  btn-home fs-6 rounded-pill mb-2  btn-responsive">
+                                    <i class="fa-solid fa-play"></i>
+                                    Watch Demo
+                                </button>
+                            </div>
+                            <div class="d-flex flex-wrap gap-4 text-center my-4 ">
+                                <div>
+                                    <div class="text-two-colors  fs-3 fw-bold">500+</div>
+                                    <div class="fw-semibold">Projects Delivered</div>
+                                </div>
+                                <div>
+                                    <div class="text-two-colors  fs-3 fw-bold">98%</div>
+                                    <div class="fw-semibold">Client Satisfaction</div>
+                                </div>
+                                <div>
+                                    <div class="text-two-colors fs-3 fw-bold ">24/7</div>
+                                    <div class="fw-semibold">Support</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="  mx-auto position-relative col-sm-8  col-lg-5  ">
+                        <div class="p-2 my-5 sm position-relative ">
+                            <div class="bg-Peach-Fuzz p-1  rotate-home  rounded-4 ">
+                                <div class="p-4 bg-light rounded-4 rotate-">
+                                    <div class="">
+                                        <img class="w-100 rounded-4 " src="./images/hero-img-sGwnWbTh.png" alt="hero-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="position-absolute bottom-0 start-0 p-4 rounded-4  bg-two-colors">
+                                <i class="fa-solid fa-mobile  fs-4" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                        <div class="position-absolute  top-20 end-0 p-2rem rounded-4  bg-two-colors">
+                            <i class="fa-solid fa-code fs-4" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ END HERO SECTION (#Home) ═════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ START SERVICES SECTION (#Our-Services) ═══════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <div id="Our-Services" class="pt-5  ">
+            <div class="my-container">
+                <div class="head text-center  mt-5">
+                    <div class="py-2 px-4  rounded-5 bg-E7560D mb-4  bg-Peach-Fuzz w-fit-content m-auto  ">
+                        <i class="fa-solid fa-gears  me-2"></i>
+                        <span class="">Our Services</span>
+                    </div>
+                    <h2 class="">
+                        <span class="bg-853012">Comprehensive</span>
+                        <span class="text-two-colors">Digital Solutions</span>
+                    </h2>
+                    <p class="">
+                        From concept to deployment, we provide end-to-end digital services that
+                        <br>
+                        transform your
+                    business and
+                    engage your customers.
+                    </p>
+                </div>
+                <div class="mt-5">
+                    <div class="row gy-5">
+                        <div class="col-xl-4 col-md-6">
+                            <div>
+                                <div class="border p-2rem  rounded-4  my-card-Our-Services">
+                                    <div class=" p-3 rounded-4 w-fit-content  bg-two-colors  my-icon-1-Our-Services mb-3">
+                                        <i class="fa-solid fa-code fs-4" style="color: #ffffff;"></i>
+                                    </div>
+                                    <h3 class="h4 mb-3  bg-853012">Web Development</h3>
+                                    <p class="p-card">
+                                        Custom web applications built with cutting-edge technologies.
+                                    Responsive, scalable,
+                                    and optimized for performance.
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            React & Next.js Development
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            E-commerce Solutions
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            Progressive Web Apps
+                                        </li>
+                                    </ul>
+                                    <a class="text-decoration-none fw-bold " href="">
+                                        Learn More
+                                        <i class="fa-solid fa-arrow-right-long ms-2 my-icon-2-Our-Services"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div>
+                                <div class="border p-2rem  rounded-4  my-card-Our-Services ">
+                                    <div class=" p-3 rounded-4 w-fit-content  bg-two-colors  my-icon-1-Our-Services mb-3">
+                                        <i class="fa-solid fa-mobile fs-4" style="color: #ffffff;"></i>
+                                    </div>
+                                    <h3 class="h4 mb-3  bg-853012">Mobile Applications</h3>
+                                    <p class="p-card">
+                                        Native and cross-platform mobile apps that deliver exceptional user experiences across all devices.
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            iOS & Android Development
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            React Native & Flutter
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            App Store Optimization
+                                        </li>
+                                    </ul>
+                                    <a class="text-decoration-none fw-bold " href="">
+                                        Learn More
+                                        <i class="fa-solid fa-arrow-right-long ms-2 my-icon-2-Our-Services"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div>
+                                <div class="border p-2rem  rounded-4  my-card-Our-Services">
+                                    <div class=" p-3 rounded-4 w-fit-content  bg-two-colors  my-icon-1-Our-Services mb-3">
+                                        <i class="fa-solid fa-cloud fs-4" style="color: #ffffff;"></i>
+                                    </div>
+                                    <h3 class="h4 mb-3  bg-853012">
+                                        Cloud Solutions
+                                    </h3>
+                                    <p class="p-card">
+                                        Scalable cloud infrastructure and services that grow with your business needs and ensure maximum uptime.
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            AWS & Azure Integration
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            DevOps & CI/CD
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            Microservices Architecture
+                                        </li>
+                                    </ul>
+                                    <a class="text-decoration-none fw-bold " href="">
+                                        Learn More
+                                        <i class="fa-solid fa-arrow-right-long ms-2 my-icon-2-Our-Services"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div>
+                                <div class="border p-2rem  rounded-4  my-card-Our-Services">
+                                    <div class=" p-3 rounded-4 w-fit-content  bg-two-colors  my-icon-1-Our-Services mb-3">
+                                        <i class="fa-solid fa-brain fs-4" style="color: #ffffff;"></i>
+                                    </div>
+                                    <h3 class="h4 mb-3  bg-853012">
+                                        AI & Machine Learning
+                                    </h3>
+                                    <p class="p-card">
+                                        Intelligent solutions powered by artificial intelligence and machine learning to automate and optimize processes.
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            Predictive Analytics
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            Natural Language Processing
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            Computer Vision
+                                        </li>
+                                    </ul>
+                                    <a class="text-decoration-none fw-bold " href="">
+                                        Learn More
+                                        <i class="fa-solid fa-arrow-right-long ms-2 my-icon-2-Our-Services"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div>
+                                <div class="border p-2rem  rounded-4  my-card-Our-Services">
+                                    <div class=" p-3 rounded-4 w-fit-content  bg-two-colors  my-icon-1-Our-Services mb-3">
+                                        <i class="fas fa-chart-line fa-2x fs-4" style="color: #ffffff;"></i>
+                                    </div>
+                                    <h3 class="h4 mb-3  bg-853012">Digital Marketing</h3>
+                                    <p class="p-card">
+                                        Data-driven marketing strategies that increase brand visibility and drive customer engagement across all channels.
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            SEO & SEM Optimization
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            Social Media Management
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            Content Strategy
+                                        </li>
+                                    </ul>
+                                    <a class="text-decoration-none fw-bold " href="">
+                                        Learn More
+                                        <i class="fa-solid fa-arrow-right-long ms-2 my-icon-2-Our-Services"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div>
+                                <div class="border p-2rem  rounded-4  my-card-Our-Services">
+                                    <div class=" p-3 rounded-4 w-fit-content  bg-two-colors  my-icon-1-Our-Services mb-3">
+                                        <i class="fa-solid fa-palette fs-4" style="color: #ffffff;"></i>
+                                    </div>
+                                    <h3 class="h4 mb-3  bg-853012">UI/UX Design</h3>
+                                    <p class="p-card">
+                                        User-centered design that creates intuitive, beautiful, and accessible digital experiences that users love.
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            User Research & Testing
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            Wireframing & Prototyping
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="fa-solid fa-check me-2 mb-2 "></i>
+                                            Design Systems
+                                        </li>
+                                    </ul>
+                                    <a class="text-decoration-none fw-bold " href="">
+                                        Learn More
+                                        <i class="fa-solid fa-arrow-right-long ms-2 my-icon-2-Our-Services"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ END SERVICES SECTION (#Our-Services) ═════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ START TECHNOLOGY STACK SECTION (#Technology) ═══════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <div id="Technology" class="pt-5">
+            <div class="my-container pt-5">
+                <div class="head text-center pt-5">
+                    <div class="py-2 px-4  rounded-5 bg-E7560D mb-4  bg-Peach-Fuzz w-fit-content m-auto  ">
+                        <i class="fa-solid fa-gear me-2"></i>
+                        <span class="">Technology Stack</span>
+                    </div>
+                    <h2 class="">
+                        <span class="bg-853012">Cutting-Edge</span>
+                        <span class="text-two-colors">Technologies</span>
+                    </h2>
+                    <p class="">
+                        We leverage the latest technologies and frameworks to build scalable, secure,
+                        <br>
+                        and
+                    high-performance solutions.
+                    </p>
+                </div>
+                <div class="my-5 pb-5 my-container__Technology">
+                    <ul class=" nav nav-pills mb-3  w-fit-content mx-auto border-bottom  " id="pills-tab" role="tablist">
+                        <li class="nav-item color-hover " role="presentation">
+                            <button
+                                class="nav-link  px-4 fs-6 fw-bold  active  "
+                                id="pills-home-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#Frontend"
+                                type="button"
+                                role="tab"
+                                aria-controls="pills-home"
+                                aria-selected="true"
+                            >
+                                <i class="fa-solid fa-code me-2"></i>
+                                Frontend
+                            </button>
+                        </li>
+                        <li class="nav-item  color-hover" role="presentation">
+                            <button
+                                class="nav-link px-4 fs-6 fw-bold"
+                                id="pills-profile-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#Backend"
+                                type="button"
+                                role="tab"
+                                aria-controls="pills-profile"
+                                aria-selected="false"
+                            >
+                                <i class="fa-solid fa-server me-2"></i>
+                                Backend
+                            </button>
+                        </li>
+                        <li class="nav-item  color-hover" role="presentation">
+                            <button
+                                class="nav-link px-4 fs-6 fw-bold"
+                                id="pills-mobile-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#Mobile"
+                                type="button"
+                                role="tab"
+                                aria-controls="pills-contact"
+                                aria-selected="false"
+                            >
+                                <i class="fa-solid fa-mobile me-2"></i>
+                                Mobile
+                            </button>
+                        </li>
+                        <li class="nav-item  color-hover" role="presentation">
+                            <button
+                                class="nav-link px-4 fs-6 fw-bold"
+                                id="pills-cloud-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#Cloud-DevOps"
+                                type="button"
+                                role="tab"
+                                aria-controls="pills-contact"
+                                aria-selected="false"
+                            >
+                                <i class="fa-solid fa-cloud me-2"></i>
+                                Cloud & DevOps
+                            </button>
+                        </li>
+                        <li class="nav-item  color-hover " role="presentation">
+                            <button
+                                class="nav-link px-4 fs-6 fw-bold"
+                                id="pills-contact-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#Database"
+                                type="button"
+                                role="tab"
+                                aria-controls="pills-contact"
+                                aria-selected="false"
+                            >
+                                <i class="fa-solid fa-database me-2"></i>
+                                Database
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div
+                            class="tab-pane fade show active"
+                            id="Frontend"
+                            role="tabpanel"
+                            aria-labelledby="pills-home-tab"
+                            tabindex="0"
+                        >
+                            <div class="head-Technology text-center my-5">
+                                <h3 class="bg-853012 fw-bold">Frontend Technologies</h3>
+                                <p class="p-Technology fs-5">
+                                    Modern frameworks and libraries for creating exceptional user
+                                interfaces
+                                </p>
+                            </div>
+                            <div class="row gy-5">
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="Soft-Blue  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-primary rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-react fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">React.js</h4>
+                                        <p class="p-Technology">
+                                            Component-based library for building interactive user
+                                        interfaces with virtual DOM
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-primary py-1 fs-7  px-3 Light-Blue me-2 rounded-5">JSX</span>
+                                            <span class="text-primary py-1 fs-7  px-3 Light-Blue me-2 rounded-5">Hooks</span>
+                                            <span class="text-primary py-1 fs-7  px-3 Light-Blue me-2 rounded-5">Redux</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Soft-Cloud-Gray  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-black rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-keyboard fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Next.js</h4>
+                                        <p class="p-Technology">
+                                            Full-stack React framework with server-side rendering and
+                                        static generation generation
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class=" text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-2 rounded-5">SSR</span>
+                                            <span class=" text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-2 rounded-5">SSG</span>
+                                            <span class="text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-2 rounded-5">
+                                                API
+                                            Routes
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Mint-Breeze  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-success rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-vuejs fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Vue.js</h4>
+                                        <p class="p-Technology ">
+                                            Progressive framework for building user interfaces with
+                                        excellent developer experience
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-success  fs-7 py-1  px-3   bg-success-subtle  me-2 rounded-5">
+                                                Composition
+                                            API
+                                            </span>
+                                            <span class="text-success  fs-7 py-1  px-3    bg-success-subtle me-2 rounded-5">Vuex</span>
+                                            <span class="text-success  fs-7 py-1  px-3 bg-success-subtle me-2 rounded-5">Nuxt</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Creamy-Light  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Orange rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-angular fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Angular</h4>
+                                        <p class="p-Technology">
+                                            Comprehensive platform for building scalable web
+                                        applications
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">TypeScript</span>
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">RxJS</span>
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">CLI</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Mint-Light  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Cyan rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-baby fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Tailwind CSS</h4>
+                                        <p class="p-Technology">
+                                            Utility-first CSS framework for rapid UI development
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3     bg-Pale-Cyan    me-2 rounded-5">JIT</span>
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3      bg-Pale-Cyan   me-2 rounded-5">Components</span>
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3     bg-Pale-Cyan    me-2 rounded-5">Responsive</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Pale-Lavender  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Purple rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-bolt fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Vite</h4>
+                                        <p class="p-Technology">
+                                            Next generation frontend tooling with lightning fast builds
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-2 rounded-5">HMR</span>
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-2 rounded-5">ESM</span>
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-2 rounded-5">Rollup</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="Backend"
+                            role="tabpanel"
+                            aria-labelledby="pills-profile-tab"
+                            tabindex="0"
+                        >
+                            <div class="head-Technology text-center my-5">
+                                <h3 class="bg-853012 fw-bold">Backend Technologies</h3>
+                                <p class="p-Technology fs-5">
+                                    Robust server-side technologies for scalable and secure
+                                applications
+                                interfaces
+                                </p>
+                            </div>
+                            <div class="row gy-5">
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Pale-Lavender  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Purple rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-java fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Java</h4>
+                                        <p class="p-Technology">
+                                            Enterprise-grade platform with robust frameworks for
+                                        large-scale applications
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-2 rounded-5">
+                                                Spring
+                                            Boot
+                                            </span>
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-2 rounded-5">Hibernate</span>
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-2 rounded-5">Maven</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="Soft-Blue  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-primary rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-python fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Python</h4>
+                                        <p class="p-Technology">
+                                            Versatile programming language with powerful frameworks for
+                                        web development
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-primary py-1 fs-7  px-3 Light-Blue me-2 rounded-5">Django</span>
+                                            <span class="text-primary py-1 fs-7  px-3 Light-Blue me-2 rounded-5">FastAPI</span>
+                                            <span class="text-primary py-1 fs-7  px-3 Light-Blue me-2 rounded-5">Flask</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Creamy-Light  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Orange rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-golang fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Golang</h4>
+                                        <p class="p-Technology">
+                                            Fast, statically typed language designed for modern software
+                                        development
+                                        applications
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">Gin</span>
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">Goroutines</span>
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">Microservices</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Mint-Breeze  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-success rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-node-js fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Node.js</h4>
+                                        <p class="p-Technology ">
+                                            JavaScript runtime built on Chrome's V8 engine for
+                                        server-side development
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-success  fs-7 py-1  px-3   bg-success-subtle  me-2 rounded-5">Express.js</span>
+                                            <span class="text-success  fs-7 py-1  px-3    bg-success-subtle me-2 rounded-5">NPM</span>
+                                            <span class="text-success  fs-7 py-1  px-3 bg-success-subtle me-2 rounded-5">TypeScript</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Mint-Light  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Cyan rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-baby fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">.NET Core</h4>
+                                        <p class="p-Technology">
+                                            Cross-platform framework for building modern, cloud-based
+                                        applications
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3     bg-Pale-Cyan    me-2 rounded-5">C#</span>
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3      bg-Pale-Cyan   me-2 rounded-5">
+                                                Entity
+                                            Framework
+                                            </span>
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3     bg-Pale-Cyan    me-2 rounded-5">Azure</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Soft-Cloud-Gray  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-black rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-gem fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Ruby</h4>
+                                        <p class="p-Technology">
+                                            Dynamic language focused on simplicity and productivity
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class=" text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-2 rounded-5">Rails</span>
+                                            <span class=" text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-2 rounded-5">Sinatra</span>
+                                            <span class="text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-2 rounded-5">RubyGems</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="Mobile"
+                            role="tabpanel"
+                            aria-labelledby="pills-mobile-tab"
+                            tabindex="0"
+                        >
+                            <div class="head-Technology text-center my-5">
+                                <h3 class="bg-853012 fw-bold">Mobile Technologies</h3>
+                                <p class="p-Technology fs-5">
+                                    Native and cross-platform solutions for iOS and Android development
+                                </p>
+                            </div>
+                            <div class="row gy-5">
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Pale-Lavender  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Purple rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-react fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">React Native</h4>
+                                        <p class="p-Technology">
+                                            Cross-platform mobile development using React and JavaScript
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-2 rounded-5">Expo</span>
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-2 rounded-5">Navigation</span>
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-2 rounded-5">Redux</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="Soft-Blue  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-primary rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-mobile fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Flutter</h4>
+                                        <p class="p-Technology">
+                                            Google's UI toolkit for building natively compiled
+                                        applications
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-primary py-1 fs-7  px-3 Light-Blue me-2 rounded-5">Dart</span>
+                                            <span class="text-primary py-1 fs-7  px-3 Light-Blue me-2 rounded-5">Widgets</span>
+                                            <span class="text-primary py-1 fs-7  px-3 Light-Blue me-2 rounded-5">Material</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Creamy-Light  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Orange rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-apple fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">iOS Native</h4>
+                                        <p class="p-Technology">
+                                            Native iOS development using Swift and Xcode
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">Swift</span>
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">SwiftUI</span>
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">
+                                                Core
+                                            Data
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Mint-Breeze  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-success rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-android fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Android Native</h4>
+                                        <p class="p-Technology ">
+                                            Native Android development using Kotlin and Android Studio
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-success  fs-7 py-1  px-3   bg-success-subtle  me-2 rounded-5">Kotlin</span>
+                                            <span class="text-success  fs-7 py-1  px-3    bg-success-subtle me-2 rounded-5">Jetpack</span>
+                                            <span class="text-success  fs-7 py-1  px-3 bg-success-subtle me-2 rounded-5">Room</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Mint-Light  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Cyan rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-code fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Xamarin</h4>
+                                        <p class="p-Technology">
+                                            Microsoft's cross-platform solution using C# and .NET
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3     bg-Pale-Cyan    me-2 rounded-5">C#</span>
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3      bg-Pale-Cyan   me-2 rounded-5">Forms</span>
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3     bg-Pale-Cyan    me-2 rounded-5">MVVM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Soft-Cloud-Gray  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-black rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-stroopwafel fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">PWA</h4>
+                                        <p class="p-Technology">
+                                            Progressive Web Apps with native-like mobile experiences
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class=" text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-2 rounded-5">Service</span>
+                                            <span class=" text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-2 rounded-5">Manifest</span>
+                                            <span class="text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-2 rounded-5">Offline</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="Cloud-DevOps"
+                            role="tabpanel"
+                            aria-labelledby="pills-disabled-tab"
+                            tabindex="0"
+                        >
+                            <div class="head-Technology text-center my-5">
+                                <h3 class="bg-853012 fw-bold">Cloud & DevOps</h3>
+                                <p class="p-Technology fs-5">Modern cloud infrastructure and deployment technologies</p>
+                            </div>
+                            <div class="row gy-5">
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="Soft-Blue  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-primary rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-aws fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Amazon AWS</h4>
+                                        <p class="p-Technology">
+                                            Comprehensive cloud computing platform with extensive
+                                        services
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-primary py-1 fs-7  px-3 Light-Blue me-2 rounded-5">EC2</span>
+                                            <span class="text-primary py-1 fs-7  px-3 Light-Blue me-2 rounded-5">Lambda</span>
+                                            <span class="text-primary py-1 fs-7  px-3 Light-Blue me-2 rounded-5">Lambda</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Soft-Cloud-Gray  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-black rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-microsoft fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Microsoft Azure</h4>
+                                        <p class="p-Technology">
+                                            Enterprise cloud platform with integrated development tools
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class=" text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-1 rounded-5">
+                                                App
+                                            Service
+                                            </span>
+                                            <span class=" text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-1 rounded-5">Functions</span>
+                                            <span class="text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-1 rounded-5">DevOps</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Mint-Breeze  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-success rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-google fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Google Cloud</h4>
+                                        <p class="p-Technology ">
+                                            Google's cloud computing platform with AI and ML
+                                        capabilities
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-success  fs-7 py-1  px-2   bg-success-subtle  me-1 rounded-5">
+                                                Compute
+                                            Engine
+                                            </span>
+                                            <span class="text-success  fs-7 py-1  px-2    bg-success-subtle me-1 rounded-5">
+                                                Cloud
+                                            Run
+                                            </span>
+                                            <span class="text-success  fs-7 py-1  px-2 bg-success-subtle me-1 rounded-5">BigQuery</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Creamy-Light  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Orange rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-docker fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Docker</h4>
+                                        <p class="p-Technology">
+                                            Containerization platform for consistent application
+                                        deployment
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">Containers</span>
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">Images</span>
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">Compose</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Mint-Light  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Cyan rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-baby fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Kubernetes</h4>
+                                        <p class="p-Technology">
+                                            Container orchestration system for automating deployment and
+                                        scaling
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3     bg-Pale-Cyan    me-2 rounded-5">Pods</span>
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3      bg-Pale-Cyan   me-2 rounded-5">Services</span>
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3     bg-Pale-Cyan    me-2 rounded-5">Helm</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Pale-Lavender  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Purple rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-diagram-project fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">CI/CD Pipeline</h4>
+                                        <p class="p-Technology">
+                                            Automated build, test, and deployment workflows
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-1 rounded-5">Jenkins</span>
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-2 bg-Lavender-Light me-1 rounded-5">
+                                                GitHub
+                                            Actions
+                                            </span>
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-1 rounded-5">
+                                                GitLab
+                                            CI
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="Database"
+                            role="tabpanel"
+                            aria-labelledby="pills-disabled-tab"
+                            tabindex="0"
+                        >
+                            <div class="head-Technology text-center my-5">
+                                <h3 class="bg-853012 fw-bold">Database Technologies</h3>
+                                <p class="p-Technology fs-5">
+                                    Robust data storage solutions for modern applications
+                                </p>
+                            </div>
+                            <div class="row gy-5">
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Pale-Lavender  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Purple rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-database fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">PostgreSQL</h4>
+                                        <p class="p-Technology">
+                                            Advanced open-source relational database with JSON support
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-2 rounded-5">
+                                                ACID
+                                            </span>
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-2 rounded-5">JSON</span>
+                                            <span class="text-Soft-Orchid py-1   fs-7  px-3 bg-Lavender-Light me-2 rounded-5">Extensions</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="Soft-Blue  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-primary rounded-4 w-fit-content">
+                                            <i class="fa-brands fa-monero fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">MongoDB</h4>
+                                        <p class="p-Technology">
+                                            Flexible NoSQL document database for modern applications
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-primary py-1 fs-7  px-2 Light-Blue me-1 rounded-5">Documents</span>
+                                            <span class="text-primary py-1 fs-7  px-2 Light-Blue me-1 rounded-5">Documents</span>
+                                            <span class="text-primary py-1 fs-7  px-2 Light-Blue me-1 rounded-5">Sharding</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Creamy-Light  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Orange rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-fire fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Redis</h4>
+                                        <p class="p-Technology">
+                                            In-memory data structure store for caching and real-time
+                                        applications
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">Cache</span>
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">Pub/Sub</span>
+                                            <span class="text-Soft-Apricot py-1 fs-7  px-3 bg-Pale-Peach me-2 rounded-5">Streams</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Mint-Breeze  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-success rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-database fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">MySQL</h4>
+                                        <p class="p-Technology ">
+                                            Popular open-source relational database management system
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-success  fs-7 py-1  px-3   bg-success-subtle  me-2 rounded-5">InnoDB</span>
+                                            <span class="text-success  fs-7 py-1  px-3    bg-success-subtle me-2 rounded-5">Replication</span>
+                                            <span class="text-success  fs-7 py-1  px-3 bg-success-subtle me-2 rounded-5">Clustering</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Mint-Light  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-Vivid-Cyan rounded-4 w-fit-content">
+                                            <i class="  fa-solid fa-chart-line  fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">Elasticsearch</h4>
+                                        <p class="p-Technology">
+                                            Cross-platform framework for building modern, cloud-based
+                                        applications
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3     bg-Pale-Cyan    me-2 rounded-5">Search</span>
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3      bg-Pale-Cyan   me-2 rounded-5">Analytics</span>
+                                            <span class="text-Soft-Sky-Blue py-1 fs-7 px-3     bg-Pale-Cyan    me-2 rounded-5">Kibana</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="bg-Soft-Cloud-Gray  px-5 py-4 rounded-4 my-card-Our-Services">
+                                        <div class="p-3  bg-black rounded-4 w-fit-content">
+                                            <i class="fa-solid fa-diagram-project fs-3" style="color: #ffffff;"></i>
+                                        </div>
+                                        <h4 class="my-4  bg-853012">GraphQL</h4>
+                                        <p class="p-Technology">
+                                            Query language and runtime for APIs with flexible data
+                                        fetching
+                                        </p>
+                                        <div class="mt-4">
+                                            <span class=" text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-2 rounded-5">Schema</span>
+                                            <span class=" text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-2 rounded-5">Sinatra</span>
+                                            <span class="text-black   py-1 fs-7  px-3 bg-Cool-Mist-Gray me-2 rounded-5">RubyGems</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ END TECHNOLOGY STACK SECTION (#Technology) ═════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ START TESTIMONIALS SECTION (#Testimonials) ════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <div id="Testimonials" class="pt-5">
+            <div class="head text-center  my-5 my-container">
+                <div class="py-2 px-4  rounded-5 bg-E7560D mb-4  bg-Peach-Fuzz w-fit-content m-auto  ">
+                    <i class="fa-solid fa-heart me-2 "></i>
+                    <span class="">Client Testimonials</span>
+                </div>
+                <h2 class="">
+                    <span class="bg-853012">What Our</span>
+                    <span class="text-two-colors">Clients Say</span>
+                </h2>
+                <p class="">Don't just take our word for it. Here's what our clients have to say about working with us.</p>
+            </div>
+            <div class="container p-5 ">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators ">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="3"
+                            aria-label="Slide 4"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="4"
+                            aria-label="Slide 5"
+                        ></button>
+                    </div>
+                    <div class="carousel-inner pb-5">
+                        <div class="carousel-item active">
+                            <div>
+                                <div class="bg-body  rounded-4 px-5 py-5  mb-5 ">
+                                    <div class="d-flex flex-wrap justify-content-between ">
+                                        <div class="d-flex flex-wrap align-items-center   ">
+                                            <div class="p-3  rounded-4 bg-E7560D mb-4  bg-Peach-Fuzz w-fit-content me-3">
+                                                <i class="fa-solid fa-quote-left fs-3"></i>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div class="d-flex  gap-1  mb-2">
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                </div>
+                                                <span class="fw-bold text-secondary">5.0 Rating</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex  align-items-start py-2 px-4 bg-Peach-Fuzz rounded-5 w-fit-content">
+                                                <div class="pb-1 px-1  rounded-circle bg-Vivid-Orange me-3">
+                                                    <i class="fa-solid fa-check  fs-8" style="color: #ffffff;"></i>
+                                                </div>
+                                                <div class="bg-E7560D">
+                                                    <span class="fw-bold">Verified</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-Cool-Gray-Blue py-4 border-bottom">
+                                        <p class="fs-p-Testimonials">
+                                            "Clarity transformed our entire digital presence. Their
+                                        team's expertise and
+                                        dedication resulted in a 300% increase in our online sales. Absolutely
+                                        phenomenal work!"
+                                        </p>
+                                    </div>
+                                    <div class="d-flex  justify-content-between mt-5 align-items-center ">
+                                        <div class="d-flex flex-column flex-lg-row  justify-content-sm-center justify-content-lg-start align-items-center gap-3">
+                                            <div class=" p-1 border-Testimonials rounded-circle position-relative">
+                                                <img class="img-carousel rounded-circle" src="./images/avatar-1.jpg" alt="">
+                                                <div class="p-1 position-absolute bottom-0 absolute-Testimonials  rounded-circle bg-two-colors me-3">
+                                                    <i class="fa-solid fa-check  fs-6" style="color: #ffffff;"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="fs-5 fw-bold bg-853012">Ahmed Al-Farsi</div>
+                                                <div class="fw-bold text-secondary mb-1">CEO, RetailMax</div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fa-brands fa-linkedin" style="color: #ffc800;"></i>
+                                                    <span class="text-secondary ms-1 ">Verified on LinkedIn</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-none  d-lg-block ">
+                                            <div class="text-two-colors fw-bold fs-2">300%</div>
+                                            <div class="text-end  text-secondary fw-bold">Growth</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" carousel-item">
+                            <div>
+                                <div class="bg-body  rounded-4 px-5 py-5  mb-5 ">
+                                    <div class="d-flex flex-wrap justify-content-between ">
+                                        <div class="d-flex flex-wrap align-items-center   ">
+                                            <div class="p-3  rounded-4 bg-E7560D mb-4  bg-Peach-Fuzz w-fit-content me-3">
+                                                <i class="fa-solid fa-quote-left fs-3"></i>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div class="d-flex gap-2  mb-2">
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                </div>
+                                                <span class="fw-bold text-secondary">5.0 Rating</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex  align-items-start py-2 px-4 bg-Peach-Fuzz rounded-5 w-fit-content">
+                                                <div class="pb-1 px-1  rounded-circle bg-Vivid-Orange me-3">
+                                                    <i class="fa-solid fa-check  fs-8" style="color: #ffffff;"></i>
+                                                </div>
+                                                <div class="bg-E7560D">
+                                                    <span class="fw-bold">Verified</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-Cool-Gray-Blue py-4 border-bottom">
+                                        <p class="fs-p-Testimonials">
+                                            "Clarity transformed our entire digital presence. Their
+                                        team's expertise and
+                                        dedication resulted in a 300% increase in our online sales. Absolutely
+                                        phenomenal work!"
+                                        </p>
+                                    </div>
+                                    <div class="d-flex  justify-content-between mt-5 align-items-center ">
+                                        <div class="d-flex flex-column flex-lg-row  justify-content-sm-center justify-content-lg-start align-items-center gap-3">
+                                            <div class=" p-1 border-Testimonials rounded-circle position-relative">
+                                                <img class="img-carousel rounded-circle" src="./images/avatar-2.jpg" alt="avatar-2">
+                                                <div class="p-1 position-absolute bottom-0 absolute-Testimonials  rounded-circle bg-two-colors me-3">
+                                                    <i class="fa-solid fa-check  fs-6" style="color: #ffffff;"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="fs-5 fw-bold bg-853012">Ahmed Al-Farsi</div>
+                                                <div class="fw-bold text-secondary mb-1">CEO, RetailMax</div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fa-brands fa-linkedin" style="color: #ffc800;"></i>
+                                                    <span class="text-secondary ms-1 ">Verified on LinkedIn</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-none  d-lg-block">
+                                            <div class="text-two-colors fw-bold fs-2">300%</div>
+                                            <div class="text-end  text-secondary fw-bold">Growth</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <div class="bg-body  rounded-4 px-5 py-5  mb-5 ">
+                                    <div class="d-flex flex-wrap justify-content-between ">
+                                        <div class="d-flex flex-wrap align-items-center   ">
+                                            <div class="p-3  rounded-4 bg-E7560D mb-4  bg-Peach-Fuzz w-fit-content me-3">
+                                                <i class="fa-solid fa-quote-left fs-3"></i>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div class="d-flex gap-2  mb-2">
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                </div>
+                                                <span class="fw-bold text-secondary">5.0 Rating</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex  align-items-start py-2 px-4 bg-Peach-Fuzz rounded-5 w-fit-content">
+                                                <div class="pb-1 px-1  rounded-circle bg-Vivid-Orange me-3">
+                                                    <i class="fa-solid fa-check  fs-8" style="color: #ffffff;"></i>
+                                                </div>
+                                                <div class="bg-E7560D">
+                                                    <span class="fw-bold">Verified</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-Cool-Gray-Blue py-4 border-bottom">
+                                        <p class="fs-p-Testimonials">
+                                            "Clarity transformed our entire digital presence. Their
+                                        team's expertise and
+                                        dedication resulted in a 300% increase in our online sales. Absolutely
+                                        phenomenal work!"
+                                        </p>
+                                    </div>
+                                    <div class="d-flex  justify-content-between mt-5 align-items-center ">
+                                        <div class="d-flex flex-column flex-lg-row  justify-content-sm-center justify-content-lg-start align-items-center gap-3">
+                                            <div class=" p-1 border-Testimonials rounded-circle position-relative">
+                                                <img class="img-carousel rounded-circle" src="./images/avatar-3.jpg" alt="avatar-3">
+                                                <div class="p-1 position-absolute bottom-0 absolute-Testimonials  rounded-circle bg-two-colors me-3">
+                                                    <i class="fa-solid fa-check  fs-6" style="color: #ffffff;"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="fs-5 fw-bold bg-853012">Ahmed Al-Farsi</div>
+                                                <div class="fw-bold text-secondary mb-1">CEO, RetailMax</div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fa-brands fa-linkedin" style="color: #ffc800;"></i>
+                                                    <span class="text-secondary ms-1 ">Verified on LinkedIn</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-none  d-lg-block">
+                                            <div class="text-two-colors fw-bold fs-2">300%</div>
+                                            <div class="text-end  text-secondary fw-bold">Growth</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <div class="bg-body  rounded-4 px-5 py-5  mb-5 ">
+                                    <div class="d-flex flex-wrap justify-content-between ">
+                                        <div class="d-flex flex-wrap align-items-center   ">
+                                            <div class="p-3  rounded-4 bg-E7560D mb-4  bg-Peach-Fuzz w-fit-content me-3">
+                                                <i class="fa-solid fa-quote-left fs-3"></i>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div class="d-flex gap-2  mb-2">
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                </div>
+                                                <span class="fw-bold text-secondary">5.0 Rating</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex  align-items-start py-2 px-4 bg-Peach-Fuzz rounded-5 w-fit-content">
+                                                <div class="pb-1 px-1  rounded-circle bg-Vivid-Orange me-3">
+                                                    <i class="fa-solid fa-check  fs-8" style="color: #ffffff;"></i>
+                                                </div>
+                                                <div class="bg-E7560D">
+                                                    <span class="fw-bold">Verified</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-Cool-Gray-Blue py-4 border-bottom">
+                                        <p class="fs-p-Testimonials">
+                                            "Clarity transformed our entire digital presence. Their
+                                        team's expertise and
+                                        dedication resulted in a 300% increase in our online sales. Absolutely
+                                        phenomenal work!"
+                                        </p>
+                                    </div>
+                                    <div class="d-flex  justify-content-between mt-5 align-items-center ">
+                                        <div class="d-flex flex-column flex-lg-row  justify-content-sm-center justify-content-lg-start align-items-center gap-3">
+                                            <div class=" p-1 border-Testimonials rounded-circle position-relative">
+                                                <img class="img-carousel rounded-circle" src="./images/avatar-5.jpg" alt="avatar-1">
+                                                <div class="p-1 position-absolute bottom-0 absolute-Testimonials  rounded-circle bg-two-colors me-3">
+                                                    <i class="fa-solid fa-check  fs-6" style="color: #ffffff;"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="fs-5 fw-bold bg-853012">Ahmed Al-Farsi</div>
+                                                <div class="fw-bold text-secondary mb-1">CEO, RetailMax</div>
+                                                <div class="d-flex align-items-center flex-wrap">
+                                                    <i class="fa-brands fa-linkedin" style="color: #ffc800;"></i>
+                                                    <span class="text-secondary ms-1 ">Verified on LinkedIn</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-none  d-lg-block">
+                                            <div class="text-two-colors fw-bold fs-2">300%</div>
+                                            <div class="text-end  text-secondary fw-bold">Growth</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <div class="bg-body  rounded-4 px-5 py-5  mb-5 ">
+                                    <div class="d-flex flex-wrap justify-content-between ">
+                                        <div class="d-flex flex-wrap align-items-center   ">
+                                            <div class="p-3  rounded-4 bg-E7560D mb-4  bg-Peach-Fuzz w-fit-content me-3">
+                                                <i class="fa-solid fa-quote-left fs-3"></i>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div class="d-flex gap-2  mb-2">
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                                </div>
+                                                <span class="fw-bold text-secondary">5.0 Rating</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex  align-items-start py-2 px-4 bg-Peach-Fuzz rounded-5 w-fit-content">
+                                                <div class="pb-1 px-1  rounded-circle bg-Vivid-Orange me-3">
+                                                    <i class="fa-solid fa-check  fs-8" style="color: #ffffff;"></i>
+                                                </div>
+                                                <div class="bg-E7560D">
+                                                    <span class="fw-bold">Verified</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-Cool-Gray-Blue py-4 border-bottom">
+                                        <p class="fs-p-Testimonials">
+                                            "Clarity transformed our entire digital presence. Their
+                                        team's expertise and
+                                        dedication resulted in a 300% increase in our online sales. Absolutely
+                                        phenomenal work!"
+                                        </p>
+                                    </div>
+                                    <div class="d-flex  justify-content-between mt-5 align-items-center ">
+                                        <div class="d-flex flex-column flex-lg-row  justify-content-sm-center justify-content-lg-start align-items-center gap-3">
+                                            <div class=" p-1 border-Testimonials rounded-circle position-relative">
+                                                <img class="img-carousel rounded-circle" src="./images/avatar-4.png" alt="avatar-2">
+                                                <div class="p-1 position-absolute bottom-0 absolute-Testimonials  rounded-circle bg-two-colors me-3">
+                                                    <i class="fa-solid fa-check  fs-6" style="color: #ffffff;"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="fs-5 fw-bold bg-853012">Ahmed Al-Farsi</div>
+                                                <div class="fw-bold text-secondary mb-1">CEO, RetailMax</div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fa-brands fa-linkedin" style="color: #ffc800;"></i>
+                                                    <span class="text-secondary ms-1 ">Verified on LinkedIn</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-none  d-lg-block">
+                                            <div class="text-two-colors fw-bold fs-2">300%</div>
+                                            <div class="text-end  text-secondary fw-bold">Growth</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ END TESTIMONIALS SECTION (#Testimonials) ═══════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ START FAQ SECTION (#FAQ) ═══════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <div id="FAQ" class="position-relative z-0">
+            <div class="container  p-5 w-75">
+                <div class="head text-center py-5 my-5">
+                    <div class="py-2 px-4  rounded-5 bg-E7560D mb-4  bg-Peach-Fuzz w-fit-content m-auto  ">
+                        <i class="fa-solid fa-question  "></i>
+                        <span class="">FAQ</span>
+                    </div>
+                    <h2 class="">
+                        <span class="bg-853012">Frequently Asked</span>
+                        <span class="text-two-colors">Questions</span>
+                    </h2>
+                    <p class=" m-auto w-75">
+                        Find answers to common questions about our services, process, and how we
+                    can help transform your business.
+                    </p>
+                </div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item  ">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed p-4  "
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseOne"
+                            >
+                                What services does Clarity offer?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                We offer a comprehensive range of digital services including web
+                            development, mobile applications, cloud solutions, AI & machine learning, digital marketing,
+                            and UI/UX design. Our team specializes in creating custom solutions tailored to your
+                            specific business needs, from initial concept through to deployment and ongoing support.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item  ">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed p-4  "
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseTwo"
+                            >
+                                How long does a typical project take?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Project timelines vary based on complexity and scope. A simple
+                            website might take 4-6 weeks, while a complex web application or mobile app could take 3-6
+                            months. We provide detailed project timelines during our initial consultation and keep you
+                            updated throughout the development process with regular milestones and deliverables.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item  ">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed p-4  "
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree"
+                            >
+                                What is your development process?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <span class="d-block fs-5 mb-3">
+                                    We follow an agile development methodology that includes:
+                                </span>
+                                <span class="d-block  mb-3">
+                                    <span class="fw-bold">
+                                        <i class="fa-solid fa-check" style="color: #ea580c;"></i>
+                                        Discovery & Planning:</span>
+                                    Understanding your requirements and goals
+                                </span>
+                                <span class="d-block  mb-3">
+                                    <span class="fw-bold">
+                                        <i class="fa-solid fa-check" style="color: #ea580c;"></i>
+                                        Design:
+                                    </span>
+                                    Creating wireframes and visual designs
+                                </span>
+                                <span class="d-block  mb-3">
+                                    <span class="fw-bold">  <i class="fa-solid fa-check" style="color: #ea580c;"></i> Development:</span>
+                                    Building your solution with regular updates
+                                </span>
+                                <span class="d-block  mb-3">
+                                    <span class="fw-bold"> <i class="fa-solid fa-check" style="color: #ea580c;"></i>    Testing:</span>
+                                    Rigorous QA and user testing
+                                </span>
+                                <span class="d-block">
+                                    <span class="fw-bold"><i class="fa-solid fa-check" style="color: #ea580c;"></i>        Deployment:</span>
+                                    Launch and ongoing support
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item  ">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed p-4  "
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse4"
+                                aria-expanded="false"
+                                aria-controls="flush-collapse4"
+                            >
+                                Do you provide ongoing support and maintenance?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                PYes! We offer comprehensive support and maintenance packages to
+                            ensure your solution continues to perform optimally. This includes bug fixes, security
+                            updates, performance optimization, feature enhancements, and technical support. We can
+                            customize a maintenance plan that fits your specific needs and budget.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item  ">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed p-4  "
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse5"
+                                aria-expanded="false"
+                                aria-controls="flush-collapse5"
+                            >
+                                What technologies do you work with?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                We work with cutting-edge technologies across the full stack. For
+                            frontend, we use React, Vue.js, Angular, and Next.js. Our backend expertise includes
+                            Node.js, Python, Golang, and Java. We're proficient in cloud platforms like AWS, Azure, and
+                            Google Cloud, and work with both SQL and NoSQL databases. We always choose the best
+                            technology stack for your specific project requirements.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item  ">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed p-4  "
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse6"
+                                aria-expanded="false"
+                                aria-controls="flush-collapse6"
+                            >
+                                How do you ensure project security and data privacy?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Security is our top priority. We implement industry-standard
+                            security practices including encryption, secure authentication, regular security audits, and
+                            compliance with data protection regulations (GDPR, HIPAA, etc.). All our developers sign
+                            NDAs, and we use secure development practices throughout the entire project lifecycle. We
+                            also provide security documentation and training for your team.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ END FAQ SECTION (#FAQ) ═══════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ START CONTACT SECTION (#Contact) ═════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <div id="Contact" class="py-5  mb-5 ">
+            <div class="my-container">
+                <div class="head text-center  my-5">
+                    <div class="py-2 px-4  rounded-5 bg-E7560D mb-4  bg-Peach-Fuzz w-fit-content m-auto  ">
+                        <i class="fa-solid fa-question  "></i>
+                        <span class="">Let's Start Your Journey</span>
+                    </div>
+                    <h2 class="">
+                        <span class="bg-853012 d-block fs-72">Ready to</span>
+                        <span class="text-two-colors  d-block fs-72">Transform?</span>
+                    </h2>
+                    <p class="w-50 fs-4  m-auto  ">
+                        Take the first step towards digital excellence. Our experts are ready to
+                    turn
+                    your vision into reality.
+                    </p>
+                </div>
+                <div>
+                    <div class="row shadow-lg  rounded-5 g-0  w-75 m-auto">
+                        <div class="rounded-4  col-lg-8  bg-body p-3 p-lg-5  ">
+                            <div class="mb-4">
+                                <h3 class="bg-853012">Get Your Free Consultation</h3>
+                                <p class="fs-5 text-secondary ">
+                                    Fill out the form and we'll get back to you within 24 hours
+                                with
+                                a personalized proposal.
+                                </p>
+                            </div>
+                            <form>
+                                <div class="row mb-4">
+                                    <div class="col-md-6">
+                                        <label class="mb-2 fw-bold" for="First-Name">First Name *</label>
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            placeholder="john"
+                                            aria-label="First name"
+                                            id="First-Name"
+                                            name="First-Name"
+                                        >
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="mb-2 fw-bold" for="last-Name">last Name *</label>
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            placeholder="Doe"
+                                            aria-label="Last name"
+                                            id="last-Name"
+                                            name="last-Name"
+                                        >
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-md-6">
+                                        <label class="mb-2 fw-bold" for="Email-Address">Email Address *</label>
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            placeholder="john@company.com"
+                                            aria-label="Email Address"
+                                            id="Email-Address"
+                                            name="Email-Address"
+                                        >
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="mb-2 fw-bold" for="Company">Company</label>
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            placeholder="your Company name"
+                                            aria-label="Company"
+                                            id="Company"
+                                            name="Company"
+                                        >
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <label class="mb-2 fw-bold" for="Primary-Interest">Primary Interest</label>
+                                    <select
+                                        class="form-select"
+                                        id="Primary-Interest"
+                                        aria-label="Default select example"
+                                        name="Primary Interest"
+                                    >
+                                        <option selected>Choose your focus area</option>
+                                        <option value="1">Web Development & Design</option>
+                                        <option value="2">Mobile App Development</option>
+                                        <option value="3">Cloud & Infrastructure</option>
+                                        <option value="4">Al & Machine Learning</option>
+                                        <option value="5">Digital Marketing & SEO</option>
+                                        <option value="6">Complete Digital Transformation</option>
+                                    </select>
+                                </div>
+                                <div class="mb-4">
+                                    <label class="mb-2 fw-bold" for="Timeline">Timeline</label>
+                                    <select
+                                        class="form-select"
+                                        id="Timeline"
+                                        aria-label="Default select example"
+                                        name="Timeline"
+                                    >
+                                        <option selected>When do you want to start?</option>
+                                        <option value="1">Immediately</option>
+                                        <option value="2">Within 1 month</option>
+                                        <option value="3">Within 3 months</option>
+                                        <option value="4">Within 6 months</option>
+                                        <option value="5">Just exploring options</option>
+                                    </select>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div>
+                                        <input
+                                            type="radio"
+                                            class="btn-check"
+                                            name="options"
+                                            id="option1"
+                                            checked
+                                        >
+                                        <label class="btn btn-secondary  mb-3  me-2" for="option1">
+                                            <span class="fs-6 fw-bold d-block">$25K - $50K</span>
+                                            <span class="text-secondary  d-block">Growth</span>
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <input
+                                            type="radio"
+                                            class="btn-check"
+                                            name="options"
+                                            id="option2"
+                                        >
+                                        <label class="btn btn-secondary mb-3  me-2" for="option2">
+                                            <span class="fs-6 fw-bold d-block">$50K - $100K</span>
+                                            <span class="text-secondary d-block">Scale</span>
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <input
+                                            type="radio"
+                                            class="btn-check"
+                                            name="options"
+                                            id="option4"
+                                        >
+                                        <label class="btn btn-secondary mb-3  me-2  " for="option4">
+                                            <span class="fs-6 fw-bold  d-block">$100K+</span>
+                                            <span class="text-secondary  d-block">Enterprise</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="my-4">
+                                    <label for="projectDesc" class="mb-2 fw-bold">Tell us about your project</label>
+                                    <textarea
+                                        class="form-control "
+                                        id="projectDesc"
+                                        name="projectDesc"
+                                        rows="5"
+                                        placeholder="Describe your project goals, challenges, and what success looks like for you.."
+                                        aria-describedby="projectHelp"
+                                    ></textarea>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="checkDefault"
+                                    >
+                                    <label class="form-check-label" for="checkDefault">
+                                        I agree to receive communications and accept the Privacy Policy
+                                    </label>
+                                </div>
+                                <div class="mt-4">
+                                    <!-- Button trigger modal -->
+                                    <button
+                                        type="button"
+                                        class="my-btn rounded-pill fs-5 my-3 translate w-100"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal"
+                                    >
+                                        Get My Free Consultation
+                                        <i class="fa-solid fa-arrow-right-long ms-2 " style="color: #ffffff;"></i>
+                                    </button>
+                                    <!-- Modal -->
+                                    <div
+                                        class="modal fade"
+                                        id="exampleModal"
+                                        tabindex="-1"
+                                        role="dialog"
+                                        aria-labelledby="exampleModalLabel"
+                                        aria-hidden="true"
+                                    >
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="m-auto">clarity-seven-drab.vercel.app says</div>
+                                                <div class="modal-body">
+                                                    Thank you for your message! We'll get back to you soon.
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">ok</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="rounded-end-4  col-lg-4 bg-two-colors p-3 p-lg-5 ">
+                            <h4 class="text-light">Why Choose Clarity?</h4>
+                            <div class="border-bottom pb-5">
+                                <div class="d-flex  align-items-start mt-5 gap-2">
+                                    <div class="p-3 rounded-4  bg-Warm-Rust">
+                                        <i class="fa-solid fa-clock" style="color: #ffffff;"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="text-light  ">24-Hour Response</h5>
+                                        <p class=" fs-7  text-Soft-White">
+                                            Quick turnaround on all inquiries with detailed
+                                        project analysis
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex  align-items-start mt-5 gap-2">
+                                    <div class="p-3 rounded-4  bg-Warm-Rust">
+                                        <i class="fa-solid fa-shield-halved" style="color: #ffffff;"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="text-light  ">100% Satisfaction</h5>
+                                        <p class=" fs-7  text-Soft-White">
+                                            Money-back guarantee if you're not completely
+                                        satisfied
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex  align-items-start mt-5 gap-2">
+                                    <div class="p-3 rounded-4  bg-Warm-Rust">
+                                        <i class="fa-solid fa-people-group" style="color: #ffffff;"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="text-light  ">Expert Team</h5>
+                                        <p class=" fs-7  text-Soft-White">
+                                            150+ certified professionals with 8+ years
+                                        experience
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h5 class="text-light my-4">Direct Contact</h5>
+                                <div>
+                                    <div class="d-flex align-items-center gap-2 mb-3">
+                                        <i class="fa-solid fa-phone  " style="color: #ffffff;"></i>
+                                        <p class="text-Soft-White fs-5 mt-2">+1 (555) 123-4567</p>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2 mb-3">
+                                        <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                                        <p class="text-Soft-White fs-5 mt-2">hello@clarity.com</p>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2 mb-3">
+                                        <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                                        <p class="text-Soft-White fs-5 mt-2">San Francisco, CA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ END CONTACT SECTION (#Contact) ═════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ START FOOTER ═══════════════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <footer class="mt-5 pt-5">
+            <div class="container">
+                <div class="d-lg-flex border-bottom mb-4 pb-4 justify-content-between">
+                    <div>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="  bg-two-colors p-2 me-3 bg-danger rounded-3">
+                                <i class="fa-solid fa-cube fs-5" style="color: #ffffff;"></i>
+                            </div>
+                            <span class="fs-5 fw-bold">Clarity</span>
+                        </div>
+                        <p class="text-secondary">
+                            Transforming businesses through innovative digital solutions and
+                        cutting-edge technology.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="d-flex gap-4">
+                            <div class="p-2 rounded-2 bg-Cool-Mist-Gray">
+                                <i class="fa-brands fa-linkedin "></i>
+                            </div>
+                            <div class="p-2 rounded-2 bg-Cool-Mist-Gray">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="p-2 rounded-2 bg-Cool-Mist-Gray">
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                            <div class="p-2 rounded-2 bg-Cool-Mist-Gray">
+                                <i class="fa-solid fa-burst"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <p class="text-secondary">© 2025 Clarity. All rights reserved.</p>
+                    <div class="fs-7 mb-4">
+                        <span class="text-secondary">Made with</span>
+                        <i class="fa-solid fa-heart" style="color: #ff6600;"></i>
+                        <span class="text-secondary">for amazing experiences</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <!-- ═══════════════════════ END FOOTER ═══════════════════════════════════════════════ -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>
