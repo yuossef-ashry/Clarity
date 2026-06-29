@@ -608,22 +608,16 @@ textarea {
     background-color: transparent;
     box-shadow: none;
 }
-.dropdown-menu{
-    width: 900px;
-    transform: translateX(-50%);
-    margin-top: 18px !important;
-    border-radius: 20px;
+.link__header{
+    color: #E7560D;
 }
 
-.dropdown-item{
-    transition: .3s;
+.fa__header__dropdown-menu ,.text_hover {
+    transition: all 0.5s ease;
 }
 
-.dropdown-item:hover{
-    background: #f8f9fa;
-}
 
-.dropdown-item i{
-    color: #EA580C;
-}
 
+.link__header__dropdown-menu:hover .text_hover{
+    color: #E7560D;
+}
