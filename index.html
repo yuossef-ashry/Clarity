@@ -36,226 +36,173 @@
         <!-- ═══════════════════════ START NAVIGATION / HEADER ══════════════════════════════════ -->
         <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
         <header class="bg-light position-fixed top-0 z-3 w-100">
-    <nav class="navbar py-3 navbar-expand-xl my-container-navbar">
-        <div class="container-fluid d-flex justify-content-between">
-
-            <!-- Logo -->
-            <div class="d-flex align-items-center">
-                <div class="bg-two-colors p-2 me-3 rounded-3">
-                    <i class="fa-solid fa-cube fs-5 text-white"></i>
-                </div>
-                <span class="text-two-colors fw-bold fs-4">Clarity</span>
-            </div>
-
-            <!-- Mobile Button -->
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <!-- Links -->
-                <ul class="navbar-nav fw-bold mt-2 me-auto mb-2 mb-lg-0">
-
-                    <li class="nav-item ms-4 me-3">
-                        <a class="nav-link active" href="#Home">Home</a>
-                    </li>
-
-                    <!-- Mega Dropdown -->
-                    <li class="nav-item dropdown me-3 position-static">
-
-                        <a
-                            class="nav-link dropdown-toggle"
-                            href="#"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            Services
-                        </a>
-
-                        <div class="dropdown-menu border-0 shadow-lg p-4 mt-3">
-
-                            <div class="row">
-
-                                <!-- Development -->
-                                <div class="col-lg-4">
-
-                                    <h5 class="fw-bold mb-4">Development</h5>
-
-                                    <a href="#" class="dropdown-item py-3 rounded-3">
-                                        <div class="d-flex gap-3">
-                                            <i class="fa-solid fa-code fs-5 text-warning"></i>
-
-                                            <div>
-                                                <h6 class="mb-1">Web Development</h6>
-                                                <small>Custom web applications & websites</small>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item py-3 rounded-3">
-                                        <div class="d-flex gap-3">
-                                            <i class="fa-solid fa-mobile-screen-button fs-5 text-warning"></i>
-
-                                            <div>
-                                                <h6 class="mb-1">Mobile Apps</h6>
-                                                <small>iOS & Android native apps</small>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item py-3 rounded-3">
-                                        <div class="d-flex gap-3">
-                                            <i class="fa-solid fa-palette fs-5 text-warning"></i>
-
-                                            <div>
-                                                <h6 class="mb-1">UI / UX Design</h6>
-                                                <small>User-centered design solutions</small>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                </div>
-
-                                <!-- AI -->
-                                <div class="col-lg-4">
-
-                                    <h5 class="fw-bold mb-4">
-                                        Infrastructure & AI
-                                    </h5>
-
-                                    <a href="#" class="dropdown-item py-3 rounded-3">
-                                        <div class="d-flex gap-3">
-                                            <i class="fa-solid fa-cloud fs-5 text-warning"></i>
-
-                                            <div>
-                                                <h6 class="mb-1">Cloud Solutions</h6>
-                                                <small>Scalable cloud infrastructure</small>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item py-3 rounded-3">
-                                        <div class="d-flex gap-3">
-                                            <i class="fa-solid fa-brain fs-5 text-warning"></i>
-
-                                            <div>
-                                                <h6 class="mb-1">AI & Machine Learning</h6>
-                                                <small>Intelligent automation solutions</small>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item py-3 rounded-3">
-                                        <div class="d-flex gap-3">
-                                            <i class="fa-solid fa-database fs-5 text-warning"></i>
-
-                                            <div>
-                                                <h6 class="mb-1">Data Solutions</h6>
-                                                <small>Database & analytics platforms</small>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                </div>
-
-                                <!-- Marketing -->
-                                <div class="col-lg-4">
-
-                                    <h5 class="fw-bold mb-4">Marketing</h5>
-
-                                    <a href="#" class="dropdown-item py-3 rounded-3">
-                                        <div class="d-flex gap-3">
-                                            <i class="fa-solid fa-chart-line fs-5 text-warning"></i>
-
-                                            <div>
-                                                <h6 class="mb-1">Digital Marketing</h6>
-                                                <small>SEO, SEM & Social Media</small>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item py-3 rounded-3">
-                                        <div class="d-flex gap-3">
-                                            <i class="fa-solid fa-bullhorn fs-5 text-warning"></i>
-
-                                            <div>
-                                                <h6 class="mb-1">Content Strategy</h6>
-                                                <small>Engaging content creation</small>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                    <div class="border rounded-4 p-4 text-center mt-3">
-
-                                        <h6 class="fw-bold">
-                                            Need help choosing?
-                                        </h6>
-
-                                        <p class="small text-muted">
-                                            Talk to our experts to find the perfect solution for your business.
-                                        </p>
-
-                                        <a href="#Contact" class="text-decoration-none fw-bold">
-                                            Contact us
-                                            <i class="fa-solid fa-arrow-right ms-1"></i>
-                                        </a>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
+            <nav class="navbar py-3 navbar-expand-xl my-container-navbar">
+                <div class="container-fluid d-flex justify-content-between">
+                    <!-- Logo -->
+                    <div class="d-flex align-items-center">
+                        <div class="bg-two-colors p-2 me-3 rounded-3">
+                            <i class="fa-solid fa-cube fs-5 text-white"></i>
                         </div>
-
-                    </li>
-
-                    <li class="nav-item me-3">
-                        <a class="nav-link" href="#Technology">Technology</a>
-                    </li>
-
-                    <li class="nav-item me-3">
-                        <a class="nav-link" href="#Testimonials">Testimonials</a>
-                    </li>
-
-                    <li class="nav-item me-3">
-                        <a class="nav-link" href="#FAQ">FAQ</a>
-                    </li>
-
-                    <li class="nav-item me-3">
-                        <a class="nav-link" href="#Contact">Contact</a>
-                    </li>
-
-                </ul>
-
-                <!-- Buttons -->
-                <div class="d-flex">
-
-                    <button type="button" class="btn2-nav fw-bold me-4 nav-link">
-                        Sign In
+                        <span class="text-two-colors fw-bold fs-4">Clarity</span>
+                    </div>
+                    <!-- Mobile Button -->
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-
-                    <button type="button" class="my-btn fw-bold rounded-pill ms-4">
-                        Get Started
-                    </button>
-
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- Links -->
+                        <ul class="navbar-nav fw-bold mt-2 me-auto mb-2 mb-lg-0">
+                            <li class="nav-item ms-4 me-3">
+                                <a class="nav-link active" href="#Home">Home</a>
+                            </li>
+                            <!-- Mega Dropdown -->
+                            <li class="nav-item dropdown me-3 position-static">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Services
+                                </a>
+                                <div class="dropdown-menu border-0 shadow-lg p-4 mt-3">
+                                    <div class="row">
+                                        <!-- Development -->
+                                        <div class="col-lg-4">
+                                            <h5 class="fw-bold mb-4">Development</h5>
+                                            <a href="#" class="dropdown-item py-3 rounded-3 link__header__dropdown-menu">
+                                                <div class="d-flex gap-3 fa__header__dropdown-menu">
+                                                    <i class="fa-solid fa-code fs-5 " style="color: #ea580c;"></i>
+                                                    <div>
+                                                        <h6 class="mb-1 text_hover">Web Development</h6>
+                                                        <small>Custom web applications & websites</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="dropdown-item py-3 rounded-3">
+                                                <div class="d-flex gap-3">
+                                                    <i class="fa-solid fa-mobile" style="color: #ea580c;"></i>
+                                                    <div>
+                                                        <h6 class="mb-1">Mobile Apps</h6>
+                                                        <small>iOS & Android native apps</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="dropdown-item py-3 rounded-3">
+                                                <div class="d-flex gap-3">
+                                                    <i class="fa-solid fa-palette" style="color: #ea580c;"></i>
+                                                    <div>
+                                                        <h6 class="mb-1">UI / UX Design</h6>
+                                                        <small>User-centered design solutions</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- AI -->
+                                        <div class="col-lg-4">
+                                            <h5 class="fw-bold mb-4">
+                                                Infrastructure & AI
+                                            </h5>
+                                            <a href="#" class="dropdown-item py-3 rounded-3">
+                                                <div class="d-flex gap-3">
+                                                    <i class="fa-solid fa-cloud fs-5" style="color: #ea580c;"></i>
+                                                    <div>
+                                                        <h6 class="mb-1">Cloud Solutions</h6>
+                                                        <small>Scalable cloud infrastructure</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="dropdown-item py-3 rounded-3">
+                                                <div class="d-flex gap-3">
+                                                    <i class="fa-solid fa-brain fa-5" style="color: #ea580c;"></i>
+                                                    <div>
+                                                        <h6 class="mb-1">AI & Machine Learning</h6>
+                                                        <small>Intelligent automation solutions</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="dropdown-item py-3 rounded-3">
+                                                <div class="d-flex gap-3">
+                                                    <i class="fa-solid fa-database fa-5" style="color: #ea580c;"></i>
+                                                    <div>
+                                                        <h6 class="mb-1">Data Solutions</h6>
+                                                        <small>Database & analytics platforms</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- Marketing -->
+                                        <div class="col-lg-4">
+                                            <h5 class="fw-bold mb-4">Marketing</h5>
+                                            <a href="#" class="dropdown-item py-3 rounded-3">
+                                                <div class="d-flex gap-3">
+                                                    <i class="fa-solid fa-chart-area fa-5" style="color: #ea580c;"></i>
+                                                    <div>
+                                                        <h6 class="mb-1">Digital Marketing</h6>
+                                                        <small>SEO, SEM & Social Media</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="dropdown-item py-3 rounded-3">
+                                                <div class="d-flex gap-3">
+                                                    <i class="fa-solid fa-bullhorn" style="color: #ea580c;"></i>
+                                                    <div>
+                                                        <h6 class="mb-1">Content Strategy</h6>
+                                                        <small>Engaging content creation</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="border rounded-4 p-4  mt-3">
+                                                <h6 class="fw-bolder">
+                                                    Need help choosing?
+                                                </h6>
+                                                <p class="small text-muted">
+                                                    Talk to our experts to find the perfect solution for your business.
+                                                </p>
+                                                <a href="#Contact" class="text-decoration-none fw-bold link__header">
+                                                    Contact us
+                                                    <i class="fa-solid fa-arrow-right ms-1"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#Technology">Technology</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#Testimonials">Testimonials</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#FAQ">FAQ</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                        <!-- Buttons -->
+                        <div class="d-flex">
+                            <button type="button" class="btn2-nav fw-bold me-4 nav-link">
+                                Sign In
+                            </button>
+                            <button type="button" class="my-btn fw-bold rounded-pill ms-4">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
                 </div>
-
-            </div>
-
-        </div>
-    </nav>
-</header>
+            </nav>
+        </header>
         <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
         <!-- ═══════════════════════ END NAVIGATION / HEADER ══════════════════════════════════ -->
         <!-- ═══════════════════════════════════════════════════════════════════════════════════ -->
@@ -1731,7 +1678,8 @@
                                 <span class="d-block  mb-3">
                                     <span class="fw-bold">
                                         <i class="fa-solid fa-check" style="color: #ea580c;"></i>
-                                        Discovery & Planning:</span>
+                                        Discovery & Planning:
+                                    </span>
                                     Understanding your requirements and goals
                                 </span>
                                 <span class="d-block  mb-3">
@@ -1742,15 +1690,24 @@
                                     Creating wireframes and visual designs
                                 </span>
                                 <span class="d-block  mb-3">
-                                    <span class="fw-bold">  <i class="fa-solid fa-check" style="color: #ea580c;"></i> Development:</span>
+                                    <span class="fw-bold">
+                                        <i class="fa-solid fa-check" style="color: #ea580c;"></i>
+                                        Development:
+                                    </span>
                                     Building your solution with regular updates
                                 </span>
                                 <span class="d-block  mb-3">
-                                    <span class="fw-bold"> <i class="fa-solid fa-check" style="color: #ea580c;"></i>    Testing:</span>
+                                    <span class="fw-bold">
+                                        <i class="fa-solid fa-check" style="color: #ea580c;"></i>
+                                        Testing:
+                                    </span>
                                     Rigorous QA and user testing
                                 </span>
                                 <span class="d-block">
-                                    <span class="fw-bold"><i class="fa-solid fa-check" style="color: #ea580c;"></i>        Deployment:</span>
+                                    <span class="fw-bold">
+                                        <i class="fa-solid fa-check" style="color: #ea580c;"></i>
+                                        Deployment:
+                                    </span>
                                     Launch and ongoing support
                                 </span>
                             </div>
